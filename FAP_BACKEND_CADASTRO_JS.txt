@@ -1,0 +1,42 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+/*
+Instruções
+
+Vamos criar um cadastro de pessoa com os seguintes dados: nome, salário, idade e se possui diploma. Antes de começar a codificação, identifiquem os tipos de cada variável. Em seguida, desenvolvam o código utilizando exemplos para cada variável que respeitem os tipos identificados. Certifiquem-se de que os valores correspondam aos tipos de dados corretos.
+Realize essa atividade, suba esse arquivo em um drive com link público e
+compartilhe o link no campo ao lado para que outros desenvolvedores possam
+analisá-lo.
+
+
+
+desenvolvido por marcos lemos - dev*/
+
+console.log("Welcome to Programiz!");
+
+let diploma;
+let nome;
+let idade;
+let salario;
+
+console.log("******************* INICIAR O CADASTRO ******************");
+
+
+nome= prompt("digite seu nome: ");
+idade= parseInt(prompt("digite sua idade: "));
+salario= parseFloat(prompt("digite o salario: "));
+diploma  = prompt("possui diploma? digite somente: SIM ou NAO : ");
+
+
+console.log("*******************RESULTADO DO CADASTRO******************");
+
+console.log("seu nome é : \n",nome);
+console.log("seu nome é : \n",idade);
+console.log("seu salario é : \n",salario);
+
+if(diploma === "SIM"){
+    console.log("possui diploma: ",diploma);
+}else{
+    console.log("possui diploma: ",diploma);
+}
+console.log("***********************************************\n");
